@@ -1,14 +1,7 @@
 package com.example.code;
 
 public class Circle extends Shape {
-    private int radius;
-
-    public Circle(int x, int y, int radius) {
+    public Circle(int x, int y) {
         super(x, y);
-        this.radius = radius;
-    }
-
-    public int getRadius() {
-        return radius;
     }
 }
