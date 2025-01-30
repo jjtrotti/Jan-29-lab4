@@ -2,21 +2,21 @@ package com.example.code;
 
 public abstract class Shape {
    
-
+    String color = "orange";
     private int x;
     private int y;
 
     public Shape(int x, int y) {
-	    this.x = x;
-	    this.y = y;
+	this.x = x;
+	this.y = y;
     }
 
     public int getX() {
-	    return x;
+	return x;
     }
 
     public void setX(int x) {
-	    this.x = x;
+	this.x = x;
     }
 
     public int getY() {
@@ -24,7 +24,7 @@ public abstract class Shape {
     }
 
     public void setY(int y) {
-	    this.y = y;
+	this.y = y;
     }
 
 
