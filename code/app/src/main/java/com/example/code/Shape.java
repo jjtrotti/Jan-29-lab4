@@ -1,6 +1,7 @@
 package com.example.code;
 
 public abstract class Shape {
+   
 
     private int x;
     private int y;
@@ -25,5 +26,6 @@ public abstract class Shape {
     public void setY(int y) {
 	    this.y = y;
     }
+
 
 }
